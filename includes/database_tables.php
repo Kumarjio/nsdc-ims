@@ -1,0 +1,34 @@
+<?php
+	define('TABLE_ADMIN_MST','admin_mst');
+	define('TABLE_MAIN_COMPANY_MST','main_company_mst');
+
+	define('TABLE_CITIES','cities');
+	define('TABLE_COURSES','courses');
+	define('TABLE_DISTRICTS','districts');
+	define('TABLE_CENTRES','centres');
+	define('TABLE_MODULES','modules');
+	define('TABLE_SECTIONS','sections');
+	define('TABLE_SUBJECTS','subjects');
+	define('TABLE_COMPANIES','companies');
+	define('TABLE_FACULTIES','faculties');
+	define('TABLE_BATCHES','batches');
+	define('TABLE_LECTURES','lectures');
+	define('TABLE_STUDENTS','students');
+	define('TABLE_STUDENT_DOCUMENTS','student_documents');
+	define('TABLE_ATTENDANCE','attendance');
+	define('TABLE_PLACEMENTS','placements');
+	define('TABLE_HANDHOLDING','handholding');
+	define('TABLE_INSTALLMENTS','installments');
+	define('TABLE_ASSESSMENTS','assessments');
+
+	define('TABLE_MEDIA','media');
+	define('TABLE_DOCUMENTS','documents');
+	define('TABLE_DEPOSITS','deposits');
+	define('TABLE_COURSES_WAIVERS','courses_waivers');
+	define('TABLE_STUDENT_WAIVERS','student_waivers');
+	define('TABLE_STUDENT_PAYMENTS','student_payments');
+	define('TABLE_BANK_ACCOUNTS','bank_accounts');
+	define('TABLE_REFUNDS','refunds');
+	define('TABLE_PROS_CONTACT_LOGS','pros_contact_logs');
+	define('TABLE_RECEIPTS','receipts');
+?>

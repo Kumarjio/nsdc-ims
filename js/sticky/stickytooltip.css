@@ -1,0 +1,45 @@
+.stickytooltip{
+box-shadow: 5px 5px 8px #818181; /*shadow for CSS3 capable browsers.*/
+-webkit-box-shadow: 5px 5px 8px #818181;
+-moz-box-shadow: 5px 5px 8px #818181;
+display:none;
+position:absolute;
+display:none;
+border:5px solid #006EB5; /*Border around tooltip*/
+background:white;
+z-index:3000;
+}
+
+
+.stickytooltip .stickystatus{ /*Style for footer bar within tooltip*/
+background:#006EB5;
+color:white;
+padding-top:5px;
+text-align:center;
+font:bold 11px Arial;
+}
+
+.sticky_heading{
+	font-family: Arial;
+	font-size: 13px;
+	background: #AFAFAF;
+	color: #000000;
+	font-weight: bold;
+	text-align:center;
+	padding: 5px;
+}
+
+.stickytooltip ul{
+	padding: 5px;
+	text-align: left;
+}
+
+.stickytooltip ul li{
+	padding: 3px;
+	list-style:none;
+}
+
+.stickytooltip ul li a{
+	font-family: Arial,Verdana,sans-serif;
+    font-size: 13px;
+}

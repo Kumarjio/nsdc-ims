@@ -1,0 +1,572 @@
+html{
+	font-size: 12px;
+	font-family: Arial,Verdana,sans-serif;
+}
+
+body{
+	background: url('../images/top_bg.png') repeat-x scroll 0 0 #ffffff;
+	font-size: 12px;
+	font-family: Arial,Verdana,sans-serif;
+}
+
+a{
+	color: #044177;
+	font-size: 12px;
+}
+
+a:hover
+{
+	text-decoration: none;
+	color: #006699;
+}
+
+.verdana11Black
+{
+	font-style: normal;
+	color: #333333;
+	font-size:11px;
+}
+
+.verdana11Gray
+{	
+	font-style: normal;
+	color: #3C3C3C;
+	font-size:11px;
+}
+
+
+.verdana11GrayB
+{
+	font-style: normal;
+	font-weight: bold;
+	color: #3C3C3C;
+	font-size:11px;
+}
+
+.groovybutton{
+	/*font-size:12px;
+	font-family:Tahoma, Franklin Gothic Demi;
+	background-color:#006EB5;
+	border: solid 1px black;
+	padding:6px;
+	width:none;
+	border-radius: 15px;*/
+
+	font-weight: bold;
+	border: none;
+	color:#ffffff;
+	background-color:#006EB5;
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	padding: .4em 1em .45em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .3em; 
+	-moz-border-radius: .3em;
+	border-radius: .3em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+
+.groovybutton:hover {
+	text-decoration: none;
+	background-color:#0364A0;
+}
+
+.groovybutton:active {
+	position: relative;
+	top: 1px;
+}
+
+.MS12LGray
+{
+	font-family:Microsoft Sans Serif;
+	font-style: normal;
+	color: #8C8C8C;
+	font-size:12px;
+}
+
+.MS14LGray
+{
+	font-family:Microsoft Sans Serif;
+	font-style: normal;
+	color: #8C8C8C;
+	font-size:14px;
+}
+
+.verdana12DGray
+{
+	font-style: normal;
+	color: #444444;
+	font-size:12px;
+}
+
+.trebuchet14Black
+{
+	font-family:Trebuchet MS;
+	font-style: normal;
+	color: # 8C8C8C;
+	font-size:14px;
+}
+
+.trebuchet22BlueB
+{
+	font-family:Trebuchet MS;
+	font-weight:bold;
+	font-style: normal;
+	color: #033F73;
+	font-size:22px;
+}
+
+.verdana22BlueB
+{
+	font-family:verdana;
+	font-weight:bold;
+	font-style: normal;
+	color: #6E89E4;
+	font-size:22px;
+}
+
+.inputbox
+}
+	background: #FFFFFF none repeat scroll 0%;
+	border:1px solid;
+	color:#666666;
+	font-family:Arial;
+	font-size:9px;
+}
+
+.seprater
+{
+color:#BBBBBB;
+}
+
+.brdr
+{
+	border-right: dashed 1px #96CEE9;
+}
+
+.brdrBottom
+{
+	border-bottom:solid 1px #DDDDDD;
+}
+
+.brdrBottomLBlue
+{
+	border-bottom:1px solid #006699;
+}
+
+.link1
+{
+ color:#90130D; text-decoration:none;
+ }
+
+ .link2
+{
+	color:#000000; text-decoration:none;
+ }
+
+ .link2active
+{
+	color:#000000; text-decoration:none; font-weight: bold;
+ }
+
+.text
+{
+	font-size:14px;
+	font-style: bold;
+	background-color:#FFFFFF;
+	border-bottom:2px solid #96CEE9;
+	border-color:#96CEE9;
+	color:#666666;
+}
+
+.arial12LGray
+{
+	font-family:Arial;
+	font-style: normal;
+	color: #444444;
+	font-size:12px;
+}
+.arialblackB
+{
+	font-weight:bold;
+	margin-bottom:0px;
+	margin-top:0px;
+}
+
+.tabForm
+{
+	/*background-color:#FAFAFA;*/
+	color:#000000;
+	border-bottom:1px dotted #333333;
+	border-top:1px dotted #333333;
+	margin:6px;
+	padding:6px 6px 6px 6px;
+}
+
+.groovybuttonBlue
+{
+   font-size:12px;
+   font-family:Franklin Gothic Demi;
+   color:#666666;
+   background-image: url('../images/buttonline.jpg') repeat-x;
+   border:solid 2px #ABC3D7;
+}
+
+.verdana12BlackB
+{
+	font-weight:bold;
+	font-style: normal;
+	color: #333333;
+	font-size:12px;
+}
+
+.verdana12Black
+{
+	font-style: normal;
+	color: #333333;
+	font-size:12px;
+}
+
+.brdrBlue
+{
+	border-style:solid;
+	border-width:1px;
+	border-color:#ABC3D7;
+}
+.brdrBottomLightBlue
+{
+border-bottom:solid;
+border-color:#ABC3D7;
+border-width:1px;
+}
+.brdrBottomGray
+{
+border-bottom:solid;
+border-color:#9cddf5;
+border-width:1px;
+}
+
+.tab
+{
+	/*margin:6px;*/
+	padding:6px 6px 6px 6px;
+}
+.verdana11DarkGray
+{
+	font-style: normal;
+	color: #444444;
+	font-size:11px;
+	font-weight:bold;
+}
+
+.verdana12Blue
+{
+	font-style: normal;
+	color: #0B578F;
+	font-size:12px;
+}
+
+.verdana11Blue
+{
+	font-style: normal;
+	color: #0B578F;
+	font-size:11px;
+}
+
+.verdana11BlueB
+{
+	font-style: normal;
+	font-weight: bold;
+	color: #0B578F;
+	font-size:11px;
+}
+
+.verdana11Red
+{
+	font-style: normal;
+	color: #EA1C24;
+	font-size:11px;
+}
+
+.arial12LGrayB
+{
+	font-family:Arial;
+	font-style: normal;
+	color: #444444;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.logoBg{
+background: url(../images/e_logoLine.jpg);
+background-repeat: repeat-x;
+height: 125px;
+color: white;
+}
+
+.logoBg a{
+font-size: 11px;
+}
+
+.topNavBg, .menuNavBg, .loginBg{
+background: url(../images/topnav-bg.gif);
+background-repeat: repeat-x;
+height: 24px;
+border-bottom: 2px solid #E6E6E6;
+font-style: normal;
+color: #333333;
+font-size:12px;
+}
+
+ .menuNavBg{
+ border-bottom: 1px solid #E6E6E6;
+ }
+
+.blueBgMenu{
+background: #96cee9;
+}
+
+.arial18BlueN{
+font-size:18px;
+color:#006EB5;
+font-weight: normal;
+}
+
+.arial12BlueB{
+font-size:12px;
+color:#003399;
+font-weight: bold;
+text-decoration: none;
+}
+
+.lightBlueBg{
+background: #eff8fc;
+}
+
+.lightBlueBg a{
+color:#000000;
+}
+
+.darkBlueBg{
+background: #96cee9;
+}
+
+.brdrRightBlue
+{
+border-right:solid;
+border-color:#9cddf5;
+border-width:1px;
+}
+
+.footerBg{
+/*background: url(../images/topnav-bg.gif);
+background-repeat: repeat-x;*/
+border-top: 1px solid #E6E6E6;
+height: 54px;
+border-bottom: 1px solid #E6E6E6;
+}
+
+.blueBrdr{
+border: 1px solid #C0C0C0;
+}
+
+form{
+margin: 0;
+padding: 0;
+}
+
+
+input[type="text"], input[type="password"], input[type="file"], select, textarea{
+	border: 1px solid #333333;
+	padding: 4px;
+}
+
+.tabForm input[type="text"], .tabForm input[type="password"], .tabForm input[type="file"], .tabForm select{
+	width: 200px;
+}
+
+input#txtSearch{
+height: 20px;
+}
+
+input#CmbLogin{
+border: 0;
+}
+
+.arial19DRedB{
+font-size:19px;
+color:#BA2B27;
+font-weight: bold;
+}
+
+.backgroundHeaderTB{
+background: #80BDFE;
+}
+
+.backgroundBgMain{
+background: #FFFFFF;
+}
+
+.backgroundLightTitleHead{
+background: #EBEBED;
+}
+
+.table_listing{
+	background: #9cddf5;
+	border: solid 1px #ABC3D7;
+}
+
+.arial12LGrayBold{
+	font-family:Arial;
+	font-style: normal;
+	color: #444444;
+	font-size:12px;
+	font-weight: bold;
+}
+
+.arial14LGrayBold{
+	font-family:Arial;
+	font-style: normal;
+	color: #444444;
+	font-size:14px;
+	font-weight: bold;
+	margin-right:10px;
+}
+
+form input.error
+{
+	background-color: #FFFFD5;
+	border: 2px solid red;
+	color: red;
+	margin: 0;
+}
+
+
+
+form textarea.error
+{
+	background-color: #FFFFD5;
+	border: 2px solid red;
+	color: red;
+	margin: 0;
+}
+
+
+
+form select.error
+{
+	background-color: #FFFFD5;
+	border: 2px solid red;
+	color: red;
+	margin: 0;
+}
+
+.error{
+	color: red;
+	font-size: 12px;
+	margin-left: 5px;
+}
+
+.success_msg {	
+	color: green;
+	background-color: #F2F5F9;
+	text-decoration: none;
+	font-weight:bold;
+	font-size:15px;
+	padding: 15px 0px 15px 0px;
+	border: dashed 1px #939496;
+}
+
+
+.error_msg{
+	color: red;
+	background-color: #F7F7F7;
+	text-decoration: none;
+	font-weight:bold;
+	font-size:15px;
+	padding: 15px 0px 15px 0px;
+	border: dashed 1px red;
+}
+
+.codo_logo{
+	font-size: 11px;
+	font-family: Arial,Verdana,sans-serif;
+	text-decoration: none;
+	color: #BABCBC;
+}
+
+.codo_logo a{
+	text-decoration: none;
+	font-size: 11px;
+	color: #BABCBC;
+}
+
+legend {
+	color: #0D5B26;
+}
+
+/*Multiple Selection Box*/
+.multipleSelectBoxControl span{	/* Labels above select boxes*/
+	color: #444444;
+	font-family: Arial;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	
+}
+.multipleSelectBoxControl div select{	/* Select box layout */
+	margin-top: 10px;
+	height:100%;
+	border: solid 1px #999999;
+	padding:5px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+}
+
+.multipleSelectBoxControl input{	/* Small butons */
+	width: 25px;
+	font-weight: bold;
+	border: none;
+	color:#ffffff;
+	background-color:#006EB5;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+	
+.multipleSelectBoxControl div{
+	float: left;
+}
+		
+.multipleSelectBoxDiv
+{
+}
+/*Multiple Selection Box*/
+
+.text-label{
+	color: red;
+}
+
+.sub_text{font-size: 80%; vertical-align: super;}
+
+fieldset table td {
+	border-left: 1px dashed #D1CFCF;
+	border-top: 1px dashed #D1CFCF;
+}
+
+fieldset table td {
+	border-right: 1px dashed #D1CFCF;
+	border-bottom: 1px dashed #D1CFCF;
+}
+
+.display tr:hover{
+	background-color:#FCF9CC;
+}
